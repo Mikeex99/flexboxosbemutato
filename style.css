@@ -11,19 +11,20 @@ footer{
 header{
     background-color: yellowgreen;
     height: 7%;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
     width: 100%;
-    display: block;
+    display: flexbox;
+    text-align: left;
     
 }
 p{
-    display: inline-block;
+    display: inline-flex;
     
 }
 button{
-    display: inline-block;
+    display: inline-flex;
     border-radius: 20%;
     margin: 10px;
     background-color: rgb(50, 50, 50);
@@ -35,10 +36,10 @@ img{
     width: 130px;
 }
 aside{
-    display: block;
+    display: flex;
     float: right;
     width: 150px;
-    position: fixed;
+    position: relative;
     top: 10%;
     right: 0;
 }
@@ -49,12 +50,17 @@ div{
     margin:5px;
 }
 section{
-    display: block;
+    display: flex;
     position: fixed;
     top: 7%;
-    width: 1000px;
-    bottom: 40%;
+    width: 1200px;
+    
+    background-color: rgba(255, 255, 255,0.5);
 }
 h2{
     font-size: 15px;
+}
+body{
+    background-image: url(./img/maxresdefault\ \(2\).jpg);
+    text-align: center;
 }
