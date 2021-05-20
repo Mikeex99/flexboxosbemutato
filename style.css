@@ -6,4 +6,55 @@ footer{
     background-color: yellowgreen;
     color: whitesmoke;
     text-align: center;
+    height: 30px;
+}
+header{
+    background-color: yellowgreen;
+    height: 7%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+    
+}
+p{
+    display: inline-block;
+    
+}
+button{
+    display: inline-block;
+    border-radius: 20%;
+    margin: 10px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    color: seashell;
+    box-shadow: 0 0 10px rgb(20, 70, 100);
+}
+img{
+    width: 130px;
+}
+aside{
+    display: block;
+    float: right;
+    width: 150px;
+    position: fixed;
+    top: 10%;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+div{
+    margin:5px;
+}
+section{
+    display: block;
+    position: fixed;
+    top: 7%;
+    width: 1000px;
+    bottom: 40%;
+}
+h2{
+    font-size: 15px;
 }
